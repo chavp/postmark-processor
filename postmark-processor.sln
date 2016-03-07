@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saleshub.Messages", "Salesh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postmark.Processor", "Postmark.Processor\Postmark.Processor.csproj", "{32812BAC-6591-4BC1-98CD-B21FAE813792}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo Rabbit", "Demo Rabbit", "{75541D73-FB18-4C63-901D-C74F654B58FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{6A31E0AF-92EA-4B7F-BC31-8ECF8522A50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{C25D5595-4D4E-4194-ACFB-5B235737AB0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +33,20 @@ Global
 		{32812BAC-6591-4BC1-98CD-B21FAE813792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32812BAC-6591-4BC1-98CD-B21FAE813792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32812BAC-6591-4BC1-98CD-B21FAE813792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A31E0AF-92EA-4B7F-BC31-8ECF8522A50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A31E0AF-92EA-4B7F-BC31-8ECF8522A50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A31E0AF-92EA-4B7F-BC31-8ECF8522A50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A31E0AF-92EA-4B7F-BC31-8ECF8522A50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25D5595-4D4E-4194-ACFB-5B235737AB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25D5595-4D4E-4194-ACFB-5B235737AB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25D5595-4D4E-4194-ACFB-5B235737AB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25D5595-4D4E-4194-ACFB-5B235737AB0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A31E0AF-92EA-4B7F-BC31-8ECF8522A50B} = {75541D73-FB18-4C63-901D-C74F654B58FA}
+		{C25D5595-4D4E-4194-ACFB-5B235737AB0A} = {75541D73-FB18-4C63-901D-C74F654B58FA}
 	EndGlobalSection
 EndGlobal

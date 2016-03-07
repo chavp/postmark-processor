@@ -6,3 +6,7 @@
 /postmark-processor.test/bin
 /Saleshub.Messages/bin
 /Saleshub.Messages/obj
+/Send/obj
+/Send/bin
+/Receive/obj
+/Receive/bin
