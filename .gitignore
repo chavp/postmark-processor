@@ -1,0 +1,8 @@
+/packages
+/TestResults
+/Postmark.Processor/bin
+/Postmark.Processor/obj
+/postmark-processor.test/obj
+/postmark-processor.test/bin
+/Saleshub.Messages/bin
+/Saleshub.Messages/obj
