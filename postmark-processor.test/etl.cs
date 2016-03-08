@@ -26,13 +26,21 @@ namespace postmark_processor.test
                 Console.WriteLine(item.Body);
 
                 var compose = JsonConvert.DeserializeObject<Compose>(item.Body);
+                compose.SourceId = item.Id.ToString();
             }
         }
 
         [TestMethod]
         public void test_simple_extract()
         {
+            //Mon, 7 Mar 2016 08:10:27 -0600 (CST)
+        }
 
+        [TestMethod]
+        public void test_fix_dateformat()
+        {
+            var dateString = "Mon, 7 Mar 2016 08:10:27 -0600 (CST)";
+            var date = JsonConvert.DeserializeObject<DateTime>(dateString);
         }
     }
 

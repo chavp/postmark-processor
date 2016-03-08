@@ -8,6 +8,8 @@ namespace Saleshub.Messages
 {
     public class Compose
     {
+        public string SourceId { get; set; }
+
         public string FromName { get; set; }
 
         public string From { get; set; }
@@ -36,7 +38,7 @@ namespace Saleshub.Messages
 
         public string MailboxHash { get; set; }
 
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
 
         public string TextBody { get; set; }
 
